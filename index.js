@@ -1,6 +1,6 @@
 const SlackBot = require('slackbots');
-var request = require('request');
-var endpoint = 'https://icanhazdadjoke.com/slack';
+const request = require('request');
+const endpoint = 'https://icanhazdadjoke.com/slack';
 require('dotenv').config({ path: '.env' });
 
 // create a bot
