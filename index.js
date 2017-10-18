@@ -5,8 +5,8 @@ require('dotenv').config({ path: '.env' });
 
 // create a bot
 const bot = new SlackBot({
-  token: process.env.TOKEN, // Add a bot https://my.slack.com/services/new/bot and put the token
-  name: 'DadJokeBot'
+  token: process.env.TOKEN,
+  name: 'Nodebot'
 });
 
 bot.on('message', msg => {
